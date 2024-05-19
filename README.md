@@ -24,18 +24,6 @@ The Bini-Fan Data Pipeline is a specialized system designed to scrape, process, 
 - **Hybrid Search**: The pipeline employs a hybrid search approach, combining traditional keyword-based search with vector-based semantic search to deliver highly relevant results. The querying is handled by a `VectorStoreIndex` initialized with the vector store and embedding model.
 - **Query Interface**: A `Streamlit`-based user interface facilitates user interaction, allowing users to submit queries and receive responses directly from the indexed data.
 
-## Module Overview 📦
-
-- **requests and BeautifulSoup**: For web scraping and extracting text data from web pages.
-- **pdfkit**: For converting text files into PDF format.
-- **PyMuPDF**: For processing PDF files and extracting textual content.
-- **tqdm**: For displaying progress bars during data processing steps.
-- **LlamaParse**: For loading and processing PDF data into structured formats.
-- **SimpleNodeParser and SentenceSplitter**: For parsing text into nodes suitable for indexing.
-- **OpenAIEmbedding**: For generating vector embeddings of text data.
-- **PineconeVectorStore**: For storing and managing vector embeddings.
-- **Streamlit**: For creating an interactive user interface.
-
 ## Cloud Setup and Infrastructure ☁️
 
 - **Pinecone**: The vector store is hosted on Pinecone, utilizing a serverless setup to ensure scalability and efficiency.
