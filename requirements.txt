@@ -2,5 +2,6 @@ openai
 streamlit
 pinecone
 llama_index
+transformers
 llama_index.embeddings.openai
 llama_index.vector_stores.pinecone
