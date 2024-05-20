@@ -115,4 +115,4 @@ if st.button("Ask", key="ask_button", help="Click to get the answer"):
         st.write("Please enter a question.")
 
 # Footer
-st.markdown("<div class='footer'>© 2024 BINI Fan Page. All rights reserved.</div>", unsafe_allow_html=True)
+st.markdown("<div class='footer'>BINI Chat.</div>", unsafe_allow_html=True)
