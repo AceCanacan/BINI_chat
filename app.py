@@ -3,7 +3,7 @@ from backend import query_engine  # Import the query engine from the backend fil
 
 # Set the page configuration
 st.set_page_config(
-    page_title="BINI Fan Page Query App",
+    page_title="BINI-Chat",
     page_icon="🎤",
     layout="centered",
     initial_sidebar_state="expanded",
