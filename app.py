@@ -98,7 +98,7 @@ st.sidebar.write("""
 """)
 
 # Main content
-st.markdown("<h1 class='title'>BINI Fan Page Query App</h1>", unsafe_allow_html=True)
+st.markdown("<h1 class='title'>🌸 Chat-BINI 🌸</h1>", unsafe_allow_html=True)
 st.markdown("<p class='subtitle'>Ask any question about BINI and get an answer!</p>", unsafe_allow_html=True)
 
 # Input box
