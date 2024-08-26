@@ -83,23 +83,23 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# Sidebar
-st.sidebar.markdown("<h2 class='sidebar-content'>About BINI</h2>", unsafe_allow_html=True)
-st.sidebar.write("""
-BINI is a Filipino girl group formed by Star Hunt Academy and ABS-CBN Star Magic. The group consists of members Aiah, Colet, Maloi, Gwen, Stacey, Mikha, Sheena, and Jhoanna. They debuted on June 11, 2021, with their single "Born to Win". BINI is known for their synchronized dance moves, powerful vocals, and inspirational messages.
-""")
+# # Sidebar
+# st.sidebar.markdown("<h2 class='sidebar-content'>About BINI</h2>", unsafe_allow_html=True)
+# st.sidebar.write("""
+# BINI is a Filipino girl group formed by Star Hunt Academy and ABS-CBN Star Magic. The group consists of members Aiah, Colet, Maloi, Gwen, Stacey, Mikha, Sheena, and Jhoanna. They debuted on June 11, 2021, with their single "Born to Win". BINI is known for their synchronized dance moves, powerful vocals, and inspirational messages.
+# """)
 
-st.sidebar.markdown("<h2 class='sidebar-content'>Follow BINI</h2>", unsafe_allow_html=True)
-st.sidebar.write("""
-- [Twitter](https://twitter.com/BINI_ph)
-- [Instagram](https://www.instagram.com/bini_ph)
-- [YouTube](https://www.youtube.com/c/BINIph)
-- [Facebook](https://www.facebook.com/BINIph/)
-""")
+# st.sidebar.markdown("<h2 class='sidebar-content'>Follow BINI</h2>", unsafe_allow_html=True)
+# st.sidebar.write("""
+# - [Twitter](https://twitter.com/BINI_ph)
+# - [Instagram](https://www.instagram.com/bini_ph)
+# - [YouTube](https://www.youtube.com/c/BINIph)
+# - [Facebook](https://www.facebook.com/BINIph/)
+# """)
 
-st.sidebar.write("""
-Please note that not all answers may be accurate as the chatbot uses vector search and a static dataset from the BINI WikiFandom page, which can sometimes produce unreliable results.
-""")
+# st.sidebar.write("""
+# Please note that not all answers may be accurate as the chatbot uses vector search and a static dataset from the BINI WikiFandom page, which can sometimes produce unreliable results.
+# """)
 
 # Main content
 st.markdown("<h1 class='title'>🌸 Chat-BINI 🌸</h1>", unsafe_allow_html=True)
